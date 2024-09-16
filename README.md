@@ -7,7 +7,25 @@ https://vidar-team.feishu.cn/docx/LJN4dzu1QoEHt4x3SQncYagpnGd
 
 套一下Whoopsunix师傅写的 https://github.com/Whoopsunix/utf-8-overlong-encoding/blob/main/src/main/java/com/ppp/UTF8OverlongObjectOutputStream.java 就可以了
 
-# 用友nc学习利用工具
+# 用友nc反序列化利用工具
+
+YongYouNc.jar
+
+二开的：https://github.com/wgpsec/YongYouNcTool
+
+1. 增加脏数据以及UTF-8 Overlong Encoding
+
+2. 将内存马改为字节码加载，方便加载自定义的字节码
+
+![image-20240916235641186](assets/image-20240916235641186.png)
+
+3. 增加反序列化利用链，以及多个poc
+
+![image-20240917000601589](assets/image-20240917000601589.png)
+
+![image-20240917000608279](assets/image-20240917000608279.png)
+
+
 
 ## nc6.5存在过滤的话
 
