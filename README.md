@@ -1,8 +1,9 @@
 #  Yongyou-Unserialize-plus
-2023年分析用友的一些反序列化链子以及1day，本来想缝合到狼组的工具上的，我是懒b
+2023年分析用友的一些反序列化链子以及1day，二开了一下工具
 
 绕waf可以看一下：
 https://mp.weixin.qq.com/s/fcuKNfLXiFxWrIYQPq7OCg
+
 https://vidar-team.feishu.cn/docx/LJN4dzu1QoEHt4x3SQncYagpnGd
 
 套一下Whoopsunix师傅写的 https://github.com/Whoopsunix/utf-8-overlong-encoding/blob/main/src/main/java/com/ppp/UTF8OverlongObjectOutputStream.java 就可以了
