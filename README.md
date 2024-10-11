@@ -2,16 +2,16 @@
 2023年分析用友的一些反序列化链子以及1day，二开了一下工具
 
 绕waf：
+
 [https://mp.weixin.qq.com/s/fcuKNfLXiFxWrIYQPq7OCg](https://mp.weixin.qq.com/s/fcuKNfLXiFxWrIYQPq7OCg)
+
 [https://vidar-team.feishu.cn/docx/LJN4dzu1QoEHt4x3SQncYagpnGd](https://vidar-team.feishu.cn/docx/LJN4dzu1QoEHt4x3SQncYagpnGd)
-套一下Whoopsunix师傅写的 https://github.com/Whoopsunix/utf-8-overlong-encoding/blob/main/src/main/java/com/ppp/UTF8OverlongObjectOutputStream.java 就可以了
+
+套一下Whoopsunix师傅写的 [UTF8OverlongObjectOutputStream.java](https://github.com/Whoopsunix/utf-8-overlong-encoding/blob/main/src/main/java/com/ppp/UTF8OverlongObjectOutputStream.java) 就可以了
 
 # 用友nc反序列化利用工具
 
-YongYouNc.jar
-
-二开的：https://github.com/wgpsec/YongYouNcTool
-jdk1.8启动
+YongYouNc.jar，二开的：[https://github.com/wgpsec/YongYouNcTool](https://github.com/wgpsec/YongYouNcTool)，jdk1.8启动
 
 1. 增加脏数据以及UTF-8 Overlong Encoding
 
@@ -25,7 +25,7 @@ jdk1.8启动
 
 3. 增加反序列化利用链，以及多个poc
 
-   支持漏洞：
+   支持检测漏洞：
 
    ```
    BshServlet rce
