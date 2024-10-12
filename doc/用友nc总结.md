@@ -99,10 +99,14 @@ nc.uap.portal.login.action.LfwSsoRegisterServlet
 modules\websm\lib\pubwebsm_pserverLevel-1.jar!\nc\uap\portal\login\action\LfwSsoRegisterServlet.class
 
 ```
+/portal/registerServlet
 /servlet/~websm/nc.uap.portal.login.action.LfwSsoRegisterServlet
 ```
-
 需要doPut等等操作
+oos.writeInt(3);
+oos.writeUTF("");
+oos.writeUTF("");
+
 
 #### 不限制modules
 
